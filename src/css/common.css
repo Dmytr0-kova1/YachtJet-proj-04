@@ -1,0 +1,31 @@
+body {
+  font-family: Inter, sans-serif;
+  background-color: #0e1823;
+}
+
+.container {
+  min-width: 320px;
+  max-width: 375px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.logo-tab {
+  width: 52px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 0 16px;
+  }
+
+  .logo-tab {
+    width: 74px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    padding: 0 25px;
+  }
+}
