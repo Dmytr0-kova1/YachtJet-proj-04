@@ -1,5 +1,6 @@
 body {
   font-family: Inter, sans-serif;
+  color: #fbfbfb;
   background-color: #0e1823;
 }
 
@@ -10,22 +11,24 @@ body {
   margin: 0 auto;
 }
 
-.logo-tab {
+/* .logo-tab {
   width: 52px;
-}
+} */
 
 @media screen and (min-width: 768px) {
   .container {
+    width: 768px;
     padding: 0 16px;
   }
 
-  .logo-tab {
+  /* .logo-tab {
     width: 74px;
-  }
+  } */
 }
 
 @media screen and (min-width: 1280px) {
   .container {
+    width: 1280px;
     padding: 0 25px;
   }
 }
