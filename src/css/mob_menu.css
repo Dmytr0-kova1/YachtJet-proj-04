@@ -55,13 +55,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 28px;
-  height: 28px;
   border: none;
   background: none;
   fill: #055545;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-close-icon {
+  width: 28px;
+  height: 28px;
 }
 
 .mobile-menu-nav {
@@ -87,7 +90,6 @@
 
 .mobile-menu-link {
   display: block;
-  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 9px;
   line-height: 1.3;
