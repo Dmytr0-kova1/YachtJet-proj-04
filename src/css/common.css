@@ -24,9 +24,9 @@ body {
   margin: 0 auto;
 }
 
-/* .logo-tab {
+.favicon {
   width: 52px;
-} */
+}
 
 @media screen and (min-width: 768px) {
   .container {
@@ -34,9 +34,9 @@ body {
     padding: 0 16px;
   }
 
-  /* .logo-tab {
+  .favicon {
     width: 74px;
-  } */
+  }
 }
 
 @media screen and (min-width: 1280px) {
