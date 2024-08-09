@@ -158,11 +158,13 @@
 }
 
     .div-container-footer {
-        gap: 110px;
+        padding-right: 48px;
+        padding-left: 48px;
+
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        justify-content: center;
+        justify-content: space-between;
         align-items: flex-start;
 }
 
@@ -203,6 +205,8 @@
     } 
 
     .div-container-footer{
+        padding-right: 75px;
+        padding-left: 75px;
        justify-content: space-between;
     }
 
