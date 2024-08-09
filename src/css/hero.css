@@ -8,7 +8,7 @@
     ),
     url('../img/hero_bg_mob.jpg');
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: center center;
   background-size: cover;
   padding: 260px 10px 243px 10px;
 }
