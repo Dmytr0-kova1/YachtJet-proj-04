@@ -1,7 +1,5 @@
 
 .page-footer-yacht {
-    margin-left: 10px;
-    margin-right: 10px;
     border-radius: 24px 24px 0 0;
     background-color: #1b414b;
 }
@@ -136,10 +134,6 @@
 
 @media screen and (min-width: 768px) {
 
-    .page-footer-yacht {
-        margin-left: 16px;
-        margin-right: 16px;
-    }
 
     .fotter-yacht-container {
         padding-top: 50px;
