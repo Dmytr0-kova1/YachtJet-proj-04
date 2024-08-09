@@ -57,7 +57,8 @@
 }
 
 .our-review-btn {
-    display: block;
+    display: flex;
+    justify-content: center;
     font-family: "Roboto", sans-serif;
     border: 1px solid rgba(251, 251, 251, 0.35);
     border-radius: 15px;
@@ -207,12 +208,9 @@
     }
 
     .our-yahts-container {
-
         padding-bottom: 150px;
         padding-top: 150px;
     }
-
-
 
     .our-yahts-section {
         min-width: 768px;
