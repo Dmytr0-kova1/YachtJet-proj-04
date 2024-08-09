@@ -1,11 +1,12 @@
 
 .page-footer-yacht {
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-top: 40px;
-    padding-bottom: 20px;
     border-radius: 24px 24px 0 0;
     background-color: #1b414b;
+}
+
+.fotter-yacht-container {
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 .div-container-footer {
@@ -75,7 +76,7 @@
     align-items: center;
 }
 
-.icon-link {
+.icon-link-footer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -133,19 +134,15 @@
 
 @media screen and (min-width: 768px) {
 
-    .page-footer-yacht {
-        margin-left: 16px;
-        margin-right: 16px;
+
+    .fotter-yacht-container {
         padding-top: 50px;
+        padding-bottom: 20px;
     }
 
    
     .container {
         max-width: 768px;
-    }
-
-    .page-footer-yacht {
-        padding-top: 50px;
     }
 
 
@@ -207,7 +204,7 @@
     .div-container-footer{
         padding-right: 75px;
         padding-left: 75px;
-       justify-content: space-between;
+        justify-content: space-between;
     }
 
 }
