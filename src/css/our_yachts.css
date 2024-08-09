@@ -1,5 +1,18 @@
+.s4 {
+    background-color: cadetblue;
+}
+
+.our-yahts-section {
+    width: 375px;
+    margin: 0 auto;
+}
+
 .container {
     max-width: 375px;
+}
+
+.our-text-title {
+    margin: 3px;
 }
 
 .our-yahts-section {
@@ -10,7 +23,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
     max-width: 335px;
     margin: 0 auto;
     padding-bottom: 80px;
@@ -18,6 +30,9 @@
 }
 
 .our-yahts-title {
+    display: flex;
+    padding-left: 2px;
+    padding-right: 2px;
     font-size: 28px;
     font-weight: 500;
     line-height: 100%;
@@ -31,6 +46,14 @@
     display: flex;
     gap: 32px;
     margin-bottom: 40px;
+}
+
+.our-yachts-item {
+    background-color: #fbfbfb;
+    border-radius: 24px;
+    padding: 16px 16px 32px;
+    max-width: 334px;
+    max-height: 478px;
 }
 
 .our-review-btn {
@@ -50,6 +73,20 @@
     letter-spacing: -0.02em;
     color: #fbfbfb;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+
+.our-review-btn:hover.our-review-btn {
+    background: #fbfbfb;
+    color: #1b414b;
+
+}
+
+.our-review-btn:focus.our-review-btn {
+    background: #fbfbfb;
+    color: #1b414b;
+    outline: none;
 }
 
 @media (max-width: 767px) {
@@ -60,7 +97,13 @@
     }
 }
 
+.our-text-title {
+    margin: none;
+}
+
 .our-yachts-item {
+    max-width: 336px;
+    max-height: 508px;
     background-color: #fbfbfb;
     border-radius: 24px;
     padding: 16px 16px 32px;
@@ -78,9 +121,9 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    width: 270px;
-    margin: 0 auto;
-    /* height: 17px; */
+    max-width: 270px;
+    margin-left: 16px;
+    margin-right: 16px;
     padding-bottom: 16px;
     margin-bottom: 16px;
     border-bottom: 1px solid rgba(4, 3, 6, 0.1);
@@ -106,7 +149,9 @@
 .our-yahts-table {
     display: grid;
     margin: 0 auto;
-    width: 270px;
+    margin-left: 16px;
+    margin-right: 16px;
+    max-width: 272px;
     height: 109px;
     grid-template-columns: 2fr 1fr;
     gap: 6px;
@@ -162,8 +207,16 @@
     }
 
     .our-yahts-container {
+
         padding-bottom: 150px;
         padding-top: 150px;
+    }
+
+
+
+    .our-yahts-section {
+        min-width: 768px;
+
     }
 
     .our-listyachts-list {
@@ -171,6 +224,9 @@
     }
 
     .our-yahts-title {
+        display: flex;
+        padding-left: 12px;
+        padding-right: 12px;
         font-size: 48px;
         max-width: 612px;
         margin-bottom: 75px;
@@ -188,6 +244,12 @@
         text-overflow: ellipsis;
     }
 
+    .yachts-our-item {
+        max-width: 272px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
     .yachts-class-item {
         font-size: 13px;
     }
@@ -196,6 +258,12 @@
         padding: 16px 40px;
         font-size: 18px;
         line-height: 1.1;
+    }
+
+    .our-review-btn {
+        padding: 16px 40px;
+        width: 179px;
+        height: 52px;
     }
 }
 
@@ -206,15 +274,46 @@
         max-width: 1280px;
     }
 
+    .our-yahts-section {
+        min-width: 1280px;
+
+    }
+
+    /* .our-text-title {
+        margin: 10px;
+    } */
+
+    .our-yahts-container {
+        max-width: 1181px;
+
+    }
+
     .our-yahts-title {
-        max-width: 690px;
+        max-width: 714px;
+    }
+
+    .yachts-our-item {
+        max-width: 328px;
+    }
+
+    .our-yahts-table {
+        max-width: 328px;
+        max-height: 109px;
+    }
+
+    .our-yachts-item {
+        max-width: 377px;
+        max-height: 508px;
     }
 
     .our-yachts-list {
+        max-width: 1181px;
+        max-height: 508px;
         margin-bottom: 50px;
     }
 
     .our-yachts-item:nth-child(3) {
         display: inline-block;
     }
+
 }
