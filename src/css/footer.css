@@ -136,6 +136,7 @@
     .page-footer-yacht {
         margin-left: 16px;
         margin-right: 16px;
+        padding-top: 50px;
     }
 
    
@@ -156,28 +157,29 @@
         width: 91px;
 }
 
-.div-container-footer {
-    gap: 110px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: flex-start;
+    .div-container-footer {
+        gap: 110px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: flex-start;
 }
 
-.title-footer{
-    margin-top: 96px;
-    font-size: 32px;
-    max-width: 640px;
+    .title-footer{
+        margin-top: 96px;
+        font-size: 32px;
+        max-width: 640px;
 }
 
-.article-footer{
-    font-size: 14px;
-    line-height: 1.18;
+    .article-footer{
+        font-size: 14px;
+        line-height: 1.18;
+        margin-top: 99px;
 }
 
-.span-footer-article {
-    margin-left: 32px;
+    .span-footer-article {
+        margin-left: 32px;
 }
 
 }
@@ -196,6 +198,13 @@
         max-width: 1280px;
     }
 
+    .title-footer{
+       max-width: 693px;
+    } 
+
+    .div-container-footer{
+       justify-content: space-between;
+    }
 
 }
 
