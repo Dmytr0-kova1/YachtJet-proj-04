@@ -1,3 +1,23 @@
 .s6 {
-    background-color: chartreuse;
+  background-color: #0e1823;
+}
+.container {
+  max-width: 320px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+  padding: 0 16px;
+  color: ;
+}
+@media screen and (min-width: 767.99px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1157.99px) {
+  .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
