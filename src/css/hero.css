@@ -44,6 +44,8 @@
   text-align: center;
   color: rgba(251, 251, 251, 0.7);
   margin-bottom: 38px;
+  max-width: 335px;
+  margin: 0 auto;
 }
 
 .hero-button {
@@ -104,7 +106,8 @@
   .hero-description {
     font-size: 16px;
     line-height: 1.4;
-    margin-bottom: 46px;
+    max-width: 597px;
+    margin: 0 auto 46px auto;
   }
 
   .hero-button {
@@ -152,10 +155,7 @@
     margin-right: auto;
   }
   .hero-description {
-    max-width: 597px;
     margin-bottom: 48px;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .hero-container {
