@@ -1,11 +1,16 @@
 
-.about-us-container {
- 
+.about-us {
+    margin: 0 auto;
+    width: 375px;
+  }
+  
+  .about-us-container {
+   
     max-width: 335px;
     height: 675px;
     background-color: #fbfbfb;
     border-radius: 24px;
-  
+    margin: 0 auto;
     margin-top: -59px;
     padding-top: 40px;
     padding-left: 0;
@@ -67,6 +72,9 @@
   
   @media screen and (min-width: 768px) {
   
+    .about-us {
+      min-width: 768px;
+    }
   
     .about-us-container {
       max-width: 704px;
@@ -123,6 +131,10 @@
   
   @media screen and (min-width: 1280px) {
   
+  
+    .about-us {
+      min-width: 1280px;
+    }
   
   .about-us-container {
     width: 1180px;
