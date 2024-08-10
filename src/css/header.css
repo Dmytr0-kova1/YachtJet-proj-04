@@ -1,5 +1,6 @@
 .header-section {
   width: 375px;
+  position: absolute;
 }
 .container {
   max-width: 335px;
@@ -23,7 +24,7 @@
 
 .header-logo {
   display: block;
-  font-family: 'Inter', sans-serif;
+  /* font-family: 'Inter', sans-serif; */
   font-weight: 500;
   font-size: 14px;
   letter-spacing: -0.03em;
@@ -60,6 +61,11 @@
     width: 768px;
   }
 
+  .icon-list .soc-icon {
+    fill: #1b414b;
+  }
+
+
   .header-container {
     min-width: 704px;
     height: 48px;
@@ -81,13 +87,13 @@
     gap: 4px;
   }
   .nav-item {
-    border-radius: 8px;
     width: 91px;
     min-height: 40px;
-    background: rgba(27, 65, 75, 0.5);
     text-align: center;
   }
   .nav-link {
+    border-radius: 8px;
+    background: rgba(27, 65, 75, 0.5);
     display: block;
     font-weight: 400;
     font-size: 9px;

@@ -86,7 +86,7 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    min-width: 768px;
+    /* min-width: 768px; */
   }
   .adv-container {
     background: #1b414b;
@@ -149,7 +149,7 @@
 
 @media screen and (min-width: 1280px) {
   .container {
-    min-width: 1280px;
+    /* min-width: 1280px; */
   }
   .bloc-adv {
     display: flex;
@@ -164,6 +164,7 @@
     margin-left: 50px;
   }
   .adv-list {
+    min-width: 716px;
     padding: 70px 50px;
   }
   .adv-title {
