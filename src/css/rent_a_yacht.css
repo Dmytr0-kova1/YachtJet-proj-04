@@ -5,6 +5,8 @@
 .rent-section {
   padding-top: 40px;
   padding-bottom: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   background-color: #0e1823;
 }
 .container {
@@ -71,6 +73,7 @@
   background: #1b414b;
   color: #fcfcfc;
   cursor: pointer;
+  margin-top: 40px;
 }
 .rent-btn:hover,
 .rent-btn:focus {
@@ -81,20 +84,74 @@
   display: block;
   width: 100%;
   height: auto;
+  margin-top: 80px;
+  border-radius: 24px;
 }
-@media screen and (min-width: 767.99px) {
+@media screen and (min-width: 768px) {
+  .rent-section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+  }
   .container {
     max-width: 768px;
+    padding: 0 16px;
+  }
+  .rent-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .rent-form {
+    width: 473px;
+    margin-bottom: 50px;
   }
   .rent-title {
-    width: 381px;
-    height: 48px;
+    font-size: 48px;
+    margin-bottom: 50px;
+  }
+  .rent-conteiner-form {
+    margin-bottom: 50px;
+  }
+  .rent-btn {
+    border-radius: 15px;
+    padding: 18px 75px;
+    width: 194px;
+    height: 56px;
   }
 }
-@media screen and (min-width: 1157.99px) {
+@media screen and (min-width: 1280px) {
   .container {
-    max-width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
+    max-width: 1280px;
+    padding: 0 25px;
+  }
+  .rent-container {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+  }
+  .rent-input {
+    height: 54px;
+  }
+  .rent-textarea {
+    height: 116px;
+  }
+  .rent-btn {
+    border-radius: 15px;
+    padding: 18px 75px;
+    width: 194px;
+    height: 56px;
+    margin-top: 50px;
+  }
+  .rent-yacht-img {
+    margin-top: 0;
+  }
+  .rent-form {
+    margin-bottom: 0;
+  }
+  .rent-conteiner-form {
+    margin-bottom: 0;
   }
 }
