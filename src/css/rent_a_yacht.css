@@ -3,26 +3,15 @@
 }
 
 .rent-section {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  background-color: #0e1823;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .container {
-  min-width: 320px;
-  max-width: 375px;
-  margin: 0 auto;
-  padding-inline: 15px;
 }
 .rent-title {
-  font-family: 'Inter', sans-serif;
   margin-bottom: 40px;
   font-weight: 500;
   font-size: 28px;
-  line-height: 100%;
-  letter-spacing: -0.02em;
-  color: #fbfbfb;
 }
 .rent-conteiner-form {
   margin-bottom: 40px;
@@ -45,7 +34,6 @@
 }
 .rent-input::placeholder,
 .rent-textarea::placeholder {
-  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 117%;
