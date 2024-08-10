@@ -1,3 +1,136 @@
 .s6 {
-    background-color: chartreuse;
+  background-color: #0e1823;
+}
+
+.rent-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.container {
+}
+.rent-title {
+  margin-bottom: 40px;
+  font-weight: 500;
+  font-size: 28px;
+}
+.rent-conteiner-form {
+  margin-bottom: 40px;
+}
+.rent-form {
+}
+.rent-input {
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 12px;
+  padding: 14px 18px;
+  width: 100%;
+  height: 42px;
+  margin-bottom: 18px;
+  background-color: transparent;
+  color: #fbfbfb;
+}
+.rent-input::hover,
+.rent-input::focus {
+  border: 1px solid rgba(251, 251, 251, 0.5);
+}
+.rent-input::placeholder,
+.rent-textarea::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 117%;
+  color: rgba(251, 251, 251, 0.4);
+}
+
+.rent-textarea {
+  display: block;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 12px;
+  padding: 14px 18px;
+  width: 100%;
+  height: 108px;
+  background-color: transparent;
+  resize: none;
+  color: #fbfbfb;
+}
+
+.rent-btn {
+  border-radius: 15px;
+  padding: 14px 44px;
+  width: 122px;
+  height: 46px;
+  border: none;
+  background: #1b414b;
+  color: #fcfcfc;
+  cursor: pointer;
+  margin-top: 40px;
+}
+.rent-btn:hover,
+.rent-btn:focus {
+  background-color: #fbfbfb;
+  color: #1b414b;
+}
+.rent-yacht-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 80px;
+  border-radius: 24px;
+}
+@media screen and (min-width: 768px) {
+  .rent-section {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+
+  .rent-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .rent-form {
+    width: 473px;
+    margin-bottom: 50px;
+  }
+  .rent-title {
+    font-size: 48px;
+    margin-bottom: 50px;
+  }
+  .rent-conteiner-form {
+    margin-bottom: 50px;
+  }
+  .rent-btn {
+    border-radius: 15px;
+    padding: 18px 75px;
+    width: 194px;
+    height: 56px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .rent-container {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+  }
+  .rent-input {
+    height: 54px;
+  }
+  .rent-textarea {
+    height: 116px;
+  }
+  .rent-btn {
+    border-radius: 15px;
+    padding: 18px 75px;
+    width: 194px;
+    height: 56px;
+    margin-top: 50px;
+  }
+  .rent-yacht-img {
+    margin-top: 0;
+  }
+  .rent-form {
+    margin-bottom: 0;
+  }
+  .rent-conteiner-form {
+    margin-bottom: 0;
+  }
 }

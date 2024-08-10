@@ -1,1 +1,68 @@
-<section class="s6">Rent a yacht</section>
+
+<section class="rent-section">
+  <div class="container rent-container">
+    <div class="rent-conteiner-form">
+      <h2 class="rent-title">Rent a yacht now</h2>
+      <form class="rent-form" action="">
+        <input
+          class="rent-input"
+          type="text"
+          name="rent-placeholder"
+          id="rent-text"
+          placeholder="Full Name"
+        />
+
+        <input
+          class="rent-input"
+          type="email"
+          name="rent-placeholder"
+          id="rent-email"
+          placeholder="Email"
+        />
+
+        <input
+          class="rent-input"
+          type="tel"
+          name="rent-placeholder"
+          id="rent-tel"
+          placeholder="Phone number"
+        />
+
+        <textarea class="rent-textarea" placeholder="Comment"></textarea>
+      </form>
+      <button class="rent-btn" type="submit">Send</button>
+    </div>
+
+    <picture>
+      <source
+        srcset="
+          ../img/rent-a-yacht/Photorent-yacht-desk1x.jpg 1x,
+          ../img/rent-a-yacht/Photorent-yacht-desk2x.jpg 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          ../img/rent-a-yacht/Photorent-yacht-tab1x.jpg 1x,
+          ../img/rent-a-yacht/Photorent-yacht-tab2x.jpg 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="
+          ../img/rent-a-yacht/Photorent-yacht1x.jpg 1x,
+          ../img/rent-a-yacht/Photorent-yacht2x.jpg 2x
+        "
+        media="(max-width: 767px)"
+      />
+      <img
+        src="./img/rent-a-yacht/Photorent-yacht-desk1x.jpg"
+        alt="Rent a yacht"
+        class="rent-yacht-img"
+        width="768"
+        height="536"
+      />
+    </picture>
+  </div>
+</section>
+
