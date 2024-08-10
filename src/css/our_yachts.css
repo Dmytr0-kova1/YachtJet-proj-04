@@ -1,0 +1,33 @@
+.our-yahts-section {
+  width: 375px;
+  margin: 0 auto;
+  max-width: 335px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+  padding-top: 180px;
+}
+
+.our-yahts-title {
+}
+.our-review-btn {
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgba(251, 251, 251, 0.35);
+  border-radius: 15px;
+  padding: 14px 32px;
+  /* width: 141px; */
+  height: 46px;
+  background: #0e1823;
+  cursor: pointer;
+  .our-yahts-container {
+    padding-bottom: 150px;
+    padding-top: 426px;
+  }
+}
+
+.our-yahts-section {
+}
+.our-yahts-container {
+  max-width: 1181px;
+  padding-top: 296px;
+}
