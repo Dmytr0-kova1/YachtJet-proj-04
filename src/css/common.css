@@ -20,8 +20,12 @@ body {
 .container {
   min-width: 320px;
   max-width: 375px;
-  padding: 0 10px;
+  padding: 0 20px;
   margin: 0 auto;
+}
+
+.container-footer {
+  padding: 0 10px;
 }
 
 .favicon {
@@ -31,8 +35,12 @@ body {
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
-    padding: 0 16px;
+    padding: 0 32px;
   }
+
+  .container-footer {
+  padding: 0 16px;
+}
 
   .favicon {
     width: 74px;
@@ -42,6 +50,10 @@ body {
 @media screen and (min-width: 1280px) {
   .container {
     width: 1280px;
-    padding: 0 25px;
+    padding: 0 50px;
   }
+
+  .container-footer {
+  padding: 0 25px;
+}
 }
