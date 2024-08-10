@@ -20,57 +20,11 @@
     />
     
     <script type="module" crossorigin src="/YachtJet-proj-04/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/YachtJet-proj-04/assets/index-162218ef.css">
+    <link rel="stylesheet" href="/YachtJet-proj-04/assets/index-f71b122d.css">
   </head>
 
   <body>
-    <header class="header-section">
-  <div class="container header-container">
-    <a href="" class="header-logo">yachtjet</a>
-    <nav class="header-nav">
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a href="#about" class="nav-link current">About</a>
-        </li>
-        <li class="nav-item">
-          <a href="#yachts" class="nav-link">Yachts</a>
-        </li>
-        <li class="nav-item">
-          <a href="#reviews" class="nav-link">Reviews</a>
-        </li>
-      </ul>
-    </nav>
-    <ul class="icon-list">
-      <li class="icon-item">
-        <a href="https://www.instagram.com/goitclub/" class="icon-link">
-          <svg class="soc-icon" width="24" height="24">
-            <use href="../img/icons.svg#icon-instagram"></use>
-          </svg>
-        </a>
-      </li>
-      <li class="icon-item">
-        <a href="https://www.youtube.com/c/GoIT " class="icon-link">
-          <svg class="soc-icon" width="24" height="24">
-            <use href="../img/icons.svg#icon-youtube"></use>
-          </svg>
-        </a>
-      </li>
-      <li class="icon-item">
-        <a href="https://www.facebook.com/goITclub/" class="icon-link">
-          <svg class="soc-icon" width="24" height="24">
-            <use href="../img/icons.svg#icon-facebook"></use>
-          </svg>
-        </a>
-      </li>
-    </ul>
-    <button type="button" class="mobile-button" data-menu-open>
-      <svg class="button-icon" width="16" height="16">
-        <use href="../img/icons.svg#icon-menu-burger"></use>
-      </svg>
-    </button>
-  </div>
-</header>
-
+    
     <section class="mob-menu">
   <!-- add clas "is-open" for check -->
   <div class="mobile-menu" data-menu>
@@ -340,7 +294,74 @@
       
    <section class="s5">Advantages</section>
 
-      <section class="s6">Rent a yacht</section>
+      
+<section class="rent-section">
+  <div class="container rent-container">
+    <div class="rent-conteiner-form">
+      <h2 class="rent-title">Rent a yacht now</h2>
+      <form class="rent-form" action="">
+        <input
+          class="rent-input"
+          type="text"
+          name="rent-placeholder"
+          id="rent-text"
+          placeholder="Full Name"
+        />
+
+        <input
+          class="rent-input"
+          type="email"
+          name="rent-placeholder"
+          id="rent-email"
+          placeholder="Email"
+        />
+
+        <input
+          class="rent-input"
+          type="tel"
+          name="rent-placeholder"
+          id="rent-tel"
+          placeholder="Phone number"
+        />
+
+        <textarea class="rent-textarea" placeholder="Comment"></textarea>
+      </form>
+      <button class="rent-btn" type="submit">Send</button>
+    </div>
+
+    <picture>
+      <source
+        srcset="
+          ../img/rent-a-yacht/Photorent-yacht-desk1x.jpg 1x,
+          ../img/rent-a-yacht/Photorent-yacht-desk2x.jpg 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          ../img/rent-a-yacht/Photorent-yacht-tab1x.jpg 1x,
+          ../img/rent-a-yacht/Photorent-yacht-tab2x.jpg 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="
+          ../img/rent-a-yacht/Photorent-yacht1x.jpg 1x,
+          ../img/rent-a-yacht/Photorent-yacht2x.jpg 2x
+        "
+        media="(max-width: 767px)"
+      />
+      <img
+        src="/YachtJet-proj-04/assets/Photorent-yacht-desk1x-070301a8.jpg"
+        alt="Rent a yacht"
+        class="rent-yacht-img"
+        width="768"
+        height="536"
+      />
+    </picture>
+  </div>
+</section>
+
 
       
 
@@ -447,58 +468,7 @@
 </section>
     </main>
 
-    <footer class="page-footer-yacht">
-  <div class="container fotter-yacht-container">
-    <div class="div-container-footer">
-      <a class="footer-logo-yacht" href="./index.html">yachtjet</a>
-      <nav class="footer-nav">
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a href="" class="nav-link">About</a>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link">Yachts</a>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link">Reviews</a>
-          </li>
-        </ul>
-      </nav>
-      <ul class="icon-list">
-        <li class="icon-item">
-          <a href="" class="icon-link-footer">
-            <svg class="soc-icon" width="20" height="20">
-              <use href="/YachtJet-proj-04/assets/icons-0d9420a4.svg#icon-instagram"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="icon-item">
-          <a href="" class="icon-link-footer">
-            <svg class="soc-icon" width="19" height="19">
-              <use href="/YachtJet-proj-04/assets/icons-0d9420a4.svg#icon-youtube"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="icon-item">
-          <a href="" class="icon-link-footer">
-            <svg class="soc-icon" width="19" height="19">
-              <use href="/YachtJet-proj-04/assets/icons-0d9420a4.svg#icon-facebook"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
-    </div>
-    <h2 class="title-footer">
-      No matter which yacht you choose, our experienced crew will ensure that
-      your journey is smooth and enjoyable.
-    </h2>
-    <p class="article-footer">
-      2023. Yacht Adventures
-      <span class="span-footer-article">Privacy Police</span>
-    </p>
-  </div>
-</footer>
-
+    
 
     
   </body>
