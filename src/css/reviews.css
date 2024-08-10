@@ -16,6 +16,7 @@
     font-weight: 500;
     font-size: 28px;
     line-height: 1;
+    letter-spacing: -0.02em;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -26,6 +27,7 @@
 .reviews-text {
     font-size: 12px;
     line-height: 1.17;
+    letter-spacing: -0.02em;
     opacity: 0.4;
     text-align: center;
     margin-left: auto;
