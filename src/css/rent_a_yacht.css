@@ -89,15 +89,10 @@
 }
 @media screen and (min-width: 768px) {
   .rent-section {
-    padding-top: 75px;
-    padding-bottom: 75px;
-    margin-top: 75px;
-    margin-bottom: 75px;
+    padding-top: 150px;
+    padding-bottom: 150px;
   }
-  .container {
-    max-width: 768px;
-    padding: 0 16px;
-  }
+
   .rent-container {
     display: flex;
     flex-direction: column;
@@ -123,10 +118,6 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding: 0 25px;
-  }
   .rent-container {
     display: flex;
     flex-direction: row-reverse;
