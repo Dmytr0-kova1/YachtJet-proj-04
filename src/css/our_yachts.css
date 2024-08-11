@@ -5,8 +5,8 @@
     padding-top: 80px;
 }
 
-.container-our {
-    max-width: 375px;
+.container {
+    /* max-width: 375px; */
 
 }
 
@@ -264,6 +264,7 @@
 
     .our-yahts-container {
         max-width: 1181px;
+        max-width: 335px;
 
 
     }
