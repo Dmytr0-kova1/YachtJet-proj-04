@@ -1,10 +1,11 @@
 .our-yahts-section {
-    width: 375px;
+    min-width: 375px;
     margin: 0 auto;
 }
 
 .container {
     max-width: 375px;
+    padding: 0px;
 }
 
 .our-text-title {
@@ -13,6 +14,10 @@
 
 .our-yahts-section {
     background-color: #0e1823;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .our-yahts-container {
@@ -20,15 +25,11 @@
     flex-wrap: wrap;
     justify-content: center;
     max-width: 335px;
-    margin: 0 auto;
-    padding-bottom: 80px;
-    padding-top: 180px;
 }
 
 .our-yahts-title {
-    display: flex;
-    padding-left: 2px;
-    padding-right: 2px;
+    max-width: 309px;
+    max-height: 84px;
     font-size: 28px;
     font-weight: 500;
     line-height: 100%;
@@ -58,7 +59,6 @@
     border: 1px solid rgba(251, 251, 251, 0.35);
     border-radius: 15px;
     padding: 14px 32px;
-    /* width: 141px; */
     height: 46px;
     background: #0e1823;
     cursor: pointer;
@@ -69,7 +69,6 @@
     letter-spacing: -0.02em;
     color: #fbfbfb;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 
@@ -109,8 +108,6 @@
     border-radius: 24px;
     margin-bottom: 32px;
 }
-
-.our-mob-table {}
 
 .yachts-our-item {
     display: flex;
@@ -195,21 +192,17 @@
     color: #1b414b;
 }
 
-/* TABLET */
+/* --------------TABLET----------------- */
 
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
     }
 
-    .our-yahts-container {
-        padding-bottom: 150px;
-        padding-top: 426px;
-    }
-
     .our-yahts-section {
         min-width: 768px;
-
+        padding-bottom: 150px;
+        padding-top: 150px;
     }
 
     .our-listyachts-list {
@@ -231,7 +224,7 @@
 
     .yachts-title-item {
         font-size: 16px;
-        width: 160px;
+        max-width: 160px;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -255,12 +248,16 @@
 
     .our-review-btn {
         padding: 16px 40px;
-        width: 179px;
+        max-width: 179px;
         height: 52px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 110%;
+        letter-spacing: -0.02em;
     }
 }
 
-/* DESCTOP */
+/* --------------DESCTOP----------------- */
 
 @media screen and (min-width: 1280px) {
     .container {
@@ -274,7 +271,7 @@
 
     .our-yahts-container {
         max-width: 1181px;
-        padding-top: 296px;
+
 
     }
 
@@ -300,6 +297,7 @@
         max-width: 1181px;
         max-height: 508px;
         margin-bottom: 50px;
+        gap: 25px;
     }
 
     .our-yachts-item:nth-child(3) {
