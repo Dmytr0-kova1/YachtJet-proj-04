@@ -1,4 +1,145 @@
-.s5 {
-    background-color: bisque;
+/* MOB */
+.adv-container {
+  border-radius: 24px;
+  max-width: 335px;
+  max-height: 642px;
+  background: #1b414b;
+  padding: 80px 20px;
+  margin-bottom: 40px;
+}
 
+.adv-line {
+  background: rgba(251, 251, 251, 0.1);
+  border-radius: 18px;
+  width: 295px;
+  height: 2px;
+}
+
+.adv-box-1 {
+  padding-bottom: 40px;
+}
+
+.adv-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  color: #fbfbfb;
+  padding-bottom: 18px;
+}
+.adv-line {
+  border-radius: 18px;
+  width: 295px;
+  height: 2px;
+}
+.adv-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  padding-top: 18px;
+  opacity: 0.8;
+}
+.text-one {
+  width: 240px;
+}
+.text-three {
+  width: 290px;
+}
+.text-four {
+  width: 290px;
+}
+.adv-box-2 {
+  padding-bottom: 40px;
+}
+.adv-box-3 {
+  padding-bottom: 40px;
+}
+
+.adv-img {
+  border-radius: 24px;
+  width: 335px;
+  height: 424px;
+}
+/* TABLET */
+@media screen and (min-width: 768px) {
+  .adv-container {
+    max-width: 704px;
+    max-height: 424px;
+    padding: 90px 32px;
+    margin-bottom: 32px;
+  }
+  .adv-bloc-box {
+    display: flex;
+    gap: 32px;
+    width: calc((100% - 24px) / 4);
+  }
+
+  .adv-title {
+    font-size: 32px;
+    padding-bottom: 18px;
+  }
+  .adv-line {
+    width: 304px;
+    height: 2px;
+  }
+  .adv-text {
+    font-size: 13px;
+    line-height: 1.15;
+    padding-top: 18px;
+  }
+
+  .adv-box-1 {
+    padding-bottom: 44px;
+  }
+  .adv-box-2 {
+    padding-bottom: 44px;
+  }
+  .adv-box-3 {
+    padding-bottom: 44px;
+  }
+  .adv-img {
+    width: 704px;
+    height: 424px;
+  }
+}
+
+/* DESC */
+@media screen and (min-width: 1280px) {
+  .adv-container {
+    max-width: 716px;
+    max-height: 424px;
+    padding: 90px 50px;
+  }
+  .adv-img {
+    max-width: 432px;
+    max-height: 424px;
+  }
+  .adv-bloc-bloc {
+    display: flex;
+    gap: 32px;
+  }
+
+  .adv-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    color: #fbfbfb;
+    padding-bottom: 18px;
+  }
+  .adv-box-1 {
+    padding-bottom: 44px;
+  }
+  .adv-box-2 {
+    padding-bottom: 59px;
+  }
+
+  .adv-text {
+    font-size: 13px;
+    line-height: 1.15;
+    padding-top: 18px;
+    opacity: 0.8;
+  }
 }

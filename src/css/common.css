@@ -1,31 +1,59 @@
 body {
   font-family: Inter, sans-serif;
+  color: #fbfbfb;
   background-color: #0e1823;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .container {
   min-width: 320px;
   max-width: 375px;
-  padding: 0 10px;
+  padding: 0 20px;
   margin: 0 auto;
 }
 
-.logo-tab {
+.container-footer {
+  padding: 0 10px;
+}
+
+.favicon {
   width: 52px;
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    padding: 0 16px;
+    width: 768px;
+    padding: 0 32px;
   }
 
-  .logo-tab {
+  .container-footer {
+  padding: 0 16px;
+}
+
+  .favicon {
     width: 74px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .container {
-    padding: 0 25px;
+    width: 1280px;
+    padding: 0 50px;
   }
+
+  .container-footer {
+  padding: 0 25px;
+}
 }
