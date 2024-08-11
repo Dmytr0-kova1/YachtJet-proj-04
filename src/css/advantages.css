@@ -1,6 +1,6 @@
 /* MOB */
 .container-Advantages {
-  padding: 80px 20px;
+  padding: 40px 20px;
 }
 .advantages-container {
   border-radius: 24px;
@@ -71,7 +71,8 @@
 /* TABLET */
 @media screen and (min-width: 768px) {
   .container-Advantages {
-    padding: 150px 32px;
+    padding-top: 75px;
+    padding-bottom: 75px;
   }
   .advantages-container {
     max-width: 704px;
