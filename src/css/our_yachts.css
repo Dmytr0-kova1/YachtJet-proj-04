@@ -1,20 +1,17 @@
 .our-yahts-section {
     margin: 0 auto;
+    background-color: #0e1823;
+    padding-bottom: 80px;
+    padding-top: 80px;
 }
 
 .container {
-    max-width: 375px;
-    padding: 0 10px;
+    /* max-width: 375px;
+    padding: 0 10px; */
 }
 
 .our-text-title {
     margin: 3px;
-}
-
-.our-yahts-section {
-    background-color: #0e1823;
-    padding-bottom: 80px;
-    padding-top: 80px;
 }
 
 .our-yahts-container {
