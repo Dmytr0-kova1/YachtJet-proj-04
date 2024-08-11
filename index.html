@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link class="favicon" rel="icon" type="image/svg+xml" href="/YachtJet-proj-04/favicon.svg">
+    <link class="favicon" rel="icon" type="image/svg+xml" href="/YachtJet-proj-04/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title class="logo-tab">YachtJet</title>
     <link
@@ -63,7 +63,13 @@
         </a>
       </li>
     </ul>
-    <button type="button" class="mobile-button" data-menu-open>
+    <button
+      type="button"
+      class="mobile-button"
+      data-menu-open
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
       <svg class="button-icon" width="16" height="16">
         <use href="/YachtJet-proj-04/assets/icons-0d9420a4.svg#icon-menu-burger"></use>
       </svg>
@@ -71,56 +77,53 @@
   </div>
 </header>
 
-    <section class="mob-menu">
-  <!-- add clas "is-open" for check -->
-  <div class="mobile-menu" data-menu>
-    <div class="mobile-menu-conteiner">
-      <div class="logo-container">
-        <a href="" class="mobile-menu-logo">yachtjet</a>
-        <button class="mobile-menu-close" data-menu-close>
-          <svg class="menu-close-icon" width="16" height="16">
-            <use href="/YachtJet-proj-04/assets/icons-0d9420a4.svg#icon-close"></use>
-          </svg>
-        </button>
-      </div>
-      <nav class="mobile-menu-nav">
-        <ul class="mobile-menu-list">
-          <li class="mobile-menu-item">
-            <a href="#about" class="mobile-menu-link">About</a>
-          </li>
-          <li class="mobile-menu-item">
-            <a href="#yachts" class="mobile-menu-link">Yachts</a>
-          </li>
-          <li class="mobile-menu-item">
-            <a href="#reviews" class="mobile-menu-link">Reviews</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="contacts-conteiner">
-        <ul class="contact-list">
-          <li class="contacts-item">
-            <a href="" class="contacts-link"
-              ><svg class="contacts-icon" width="19" height="19">
-                <use href="/YachtJet-proj-04/assets/icons-0d9420a4.svg#icon-instagram"></use></svg
-            ></a>
-          </li>
-          <li class="contacts-item">
-            <a href="" class="contacts-link"
-              ><svg class="contacts-icon" width="20" height="20">
-                <use href="/YachtJet-proj-04/assets/icons-0d9420a4.svg#icon-youtube"></use></svg
-            ></a>
-          </li>
-          <li class="contacts-item">
-            <a href="" class="contacts-link"
-              ><svg class="contacts-icon" width="20" height="20">
-                <use href="/YachtJet-proj-04/assets/icons-0d9420a4.svg#icon-facebook"></use></svg
-            ></a>
-          </li>
-        </ul>
-      </div>
+    <div class="mobile-menu" data-menu>
+  <div class="mobile-menu-conteiner">
+    <div class="logo-container">
+      <a href="" class="mobile-menu-logo">yachtjet</a>
+      <button class="mobile-menu-close js-close-menu" data-menu-close>
+        <svg class="menu-close-icon" width="16" height="16">
+          <use href="/YachtJet-proj-04/assets/icons-0d9420a4.svg#icon-close"></use>
+        </svg>
+      </button>
+    </div>
+    <nav class="mobile-menu-nav">
+      <ul class="mobile-menu-list">
+        <li class="mobile-menu-item">
+          <a href="#about" class="mobile-menu-link">About</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a href="#our_yachts" class="mobile-menu-link">Yachts</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a href="#reviews" class="mobile-menu-link">Reviews</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="contacts-conteiner">
+      <ul class="contact-list">
+        <li class="contacts-item">
+          <a href="" class="contacts-link"
+            ><svg class="contacts-icon" width="19" height="19">
+              <use href="/YachtJet-proj-04/assets/icons-0d9420a4.svg#icon-instagram"></use></svg
+          ></a>
+        </li>
+        <li class="contacts-item">
+          <a href="" class="contacts-link"
+            ><svg class="contacts-icon" width="20" height="20">
+              <use href="/YachtJet-proj-04/assets/icons-0d9420a4.svg#icon-youtube"></use></svg
+          ></a>
+        </li>
+        <li class="contacts-item">
+          <a href="" class="contacts-link"
+            ><svg class="contacts-icon" width="20" height="20">
+              <use href="/YachtJet-proj-04/assets/icons-0d9420a4.svg#icon-facebook"></use></svg
+          ></a>
+        </li>
+      </ul>
     </div>
   </div>
-</section>
+</div>
 
 
     <main>
@@ -630,6 +633,12 @@
   </div>
 </footer>
 
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
     
   </body>
 </html>
