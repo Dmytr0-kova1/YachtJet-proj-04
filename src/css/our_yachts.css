@@ -1,11 +1,10 @@
 .our-yahts-section {
-    min-width: 375px;
     margin: 0 auto;
 }
 
 .container {
     max-width: 375px;
-    padding: 0px;
+    padding: 0 10px;
 }
 
 .our-text-title {
@@ -16,8 +15,6 @@
     background-color: #0e1823;
     padding-bottom: 80px;
     padding-top: 80px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 .our-yahts-container {
@@ -200,7 +197,6 @@
     }
 
     .our-yahts-section {
-        min-width: 768px;
         padding-bottom: 150px;
         padding-top: 150px;
     }
@@ -265,7 +261,7 @@
     }
 
     .our-yahts-section {
-        min-width: 1280px;
+        /* min-width: 1280px; */
 
     }
 
