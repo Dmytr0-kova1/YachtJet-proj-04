@@ -96,6 +96,7 @@
   align-content: center;
   gap: 4px;
 }
+
 .mobile-menu-item {
   border-radius: 8px;
   width: 91px;
@@ -124,8 +125,7 @@
   border-radius: 8px;
 }
 
-.contacts-conteiner {
-}
+.contacts-conteiner {}
 
 .contact-list {
   display: flex;
