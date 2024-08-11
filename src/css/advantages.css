@@ -11,10 +11,13 @@
   margin-bottom: 40px;
 }
 
+
+
+
 .advantages-line {
   background: rgba(251, 251, 251, 0.1);
   border-radius: 18px;
-  width: 295px;
+  /* width: 295px; */
   height: 2px;
 }
 
@@ -30,11 +33,11 @@
   color: #fbfbfb;
   padding-bottom: 18px;
 }
-.advantages-line {
+/* .advantages-line {
   border-radius: 18px;
   width: 295px;
   height: 2px;
-}
+} */
 .advantages-text {
   font-weight: 400;
   font-size: 12px;
@@ -47,12 +50,12 @@
 .text-one {
   width: 240px;
 }
-.text-three {
+/* .text-three {
   width: 290px;
-}
-.text-four {
+} */
+/* .text-four {
   width: 290px;
-}
+} */
 .advantages-box-2 {
   padding-bottom: 40px;
 }
