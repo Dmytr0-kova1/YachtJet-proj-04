@@ -28,16 +28,14 @@
 .footer-nav {
   /* display: flex; */
   /* align-items: center; */
- margin-left: 37px;
- margin-left: auto;
+  margin-left: 37px;
+  margin-left: auto;
 }
-
-
 
 .nav-list {
   display: flex;
   align-items: center;
-   justify-content: end;
+  justify-content: end;
   gap: 4px;
   margin-right: auto;
   margin-left: 37px;
@@ -139,7 +137,7 @@
   .fotter-yacht-container {
     padding-top: 50px;
     padding-bottom: 20px;
-     max-width: 736px;
+    max-width: 736px;
   }
 
   .icon-list {
@@ -196,7 +194,11 @@
   }
 
   .fotter-yacht-container {
-     max-width: 1230px;
+    max-width: 1230px;
+  }
+
+  .footer-nav {
+    margin-left: 0;
   }
 
   .container {

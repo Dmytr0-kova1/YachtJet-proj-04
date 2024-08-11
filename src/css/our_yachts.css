@@ -18,7 +18,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 335px;
+    /* max-width: 335px; */
 }
 
 .our-yahts-title {
@@ -204,10 +204,11 @@
 
     .our-yahts-title {
         display: flex;
-        padding-left: 12px;
-        padding-right: 12px;
+        /* padding-left: 12px; */
+        /* padding-right: 12px; */
+
         font-size: 48px;
-        max-width: 612px;
+        max-width: 645px;
         margin-bottom: 75px;
     }
 
@@ -269,7 +270,7 @@
     }
 
     .our-yahts-title {
-        max-width: 714px;
+        /* max-width: 714px; */
     }
 
     .yachts-our-item {

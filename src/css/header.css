@@ -5,6 +5,7 @@
   left: 50%;
   transform: translate(-50%);
 }
+
 .header-container {
   display: flex;
   align-items: center;
@@ -72,7 +73,7 @@
   .header-logo {
     font-size: 20px;
   }
-  .nav-list {
+  .nav-list-header {
     display: flex;
     align-items: center;
     gap: 4px;
@@ -125,15 +126,15 @@
 }
 @media screen and (min-width: 1280px) {
   .header-section {
-    left: 0;
+    /* left: 0; */
     width: 1280px;
   }
   .header-container {
     min-width: 1080px;
     padding-left: 30px;
     padding-right: 30px;
-    margin-left: 100px;
-    margin-right: 100px;
+    /* margin-left: 100px; */
+    /* margin-right: 100px; */
   }
 
   .mobile-button {
