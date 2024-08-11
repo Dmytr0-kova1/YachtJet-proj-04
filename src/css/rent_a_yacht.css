@@ -17,6 +17,7 @@
   margin-bottom: 40px;
 }
 .rent-form {
+  margin-bottom: 40px;
 }
 .rent-input {
   border: 1px solid rgba(251, 251, 251, 0.2);
@@ -61,7 +62,6 @@
   background: #1b414b;
   color: #fcfcfc;
   cursor: pointer;
-  margin-top: 40px;
 }
 .rent-btn:hover,
 .rent-btn:focus {

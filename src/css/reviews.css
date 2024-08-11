@@ -2,12 +2,11 @@
     
 
 .section-reviews-item {
-    margin-top: 80px;
-    margin-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .reviews {
-    margin-bottom: 40px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -21,7 +20,6 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 25px;
-    width: 335px;
 }
 
 .reviews-text {
@@ -34,13 +32,7 @@
     margin-right: auto;
     padding-right: 8px;
     padding-left: 8px;
-    width: 370px;
-}
-
-.clients,
-.client-review {
-    margin-right: auto;
-    margin-left: auto;
+    margin-bottom: 40px;
 }
 
 .clients-list {
@@ -97,7 +89,6 @@
 }
 
 .client-text {
-    width: 303px;
     font-size: 16px;
     line-height: 1.4;
     letter-spacing: -0.02em;
@@ -113,10 +104,6 @@
 
     .section-reviews-item {
         margin-top: 150px;
-        margin-bottom: 75px;
-    }
-
-    .section-reviews {
         margin-bottom: 150px;
     }
 
@@ -126,9 +113,10 @@
     }
 
     .reviews-text {
-        width: 590px;
+        width: 571px;
         font-size: 14px;
         line-height: 1.27;
+        margin-bottom: 75px;
     }
 
     .clients-list {
@@ -156,7 +144,7 @@
     }
     
     .reviews-title {
-        width: 830px;
+        width: 790px;
     }
 
     .hidden-3 {
