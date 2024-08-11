@@ -20,56 +20,57 @@
     />
     
     <script type="module" crossorigin src="/YachtJet-proj-04/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/YachtJet-proj-04/assets/index-2890bf23.css">
+    <link rel="stylesheet" href="/YachtJet-proj-04/assets/index-8d07bf31.css">
   </head>
 
   <body>
     <header class="header-section">
-  <div class="container header-container">
+  <div class="header-container">
     <a href="" class="header-logo">yachtjet</a>
     <nav class="header-nav">
       <ul class="nav-list">
         <li class="nav-item">
-          <a href="#about" class="nav-link current">About</a>
+          <a href="#about" class="header-nav-link current">About</a>
         </li>
         <li class="nav-item">
-          <a href="#yachts" class="nav-link">Yachts</a>
+          <a href="#yachts" class="header-nav-link">Yachts</a>
         </li>
         <li class="nav-item">
-          <a href="#reviews" class="nav-link">Reviews</a>
+          <a href="#reviews" class="header-nav-link">Reviews</a>
         </li>
       </ul>
     </nav>
-    <ul class="icon-list">
-      <li class="icon-item">
-        <a href="https://www.instagram.com/goitclub/" class="icon-link">
-          <svg class="soc-icon" width="24" height="24">
-            <use href="../img/icons.svg#icon-instagram"></use>
+    <ul class="icon-list-soc">
+      <li class="icon-item-soc">
+        <a href="https://www.instagram.com/goitclub/" class="icon-link-soc">
+          <svg class="soc-icon-soc" width="24" height="24">
+            <use href="/YachtJet-proj-04/assets/icons-0d9420a4.svg#icon-instagram"></use>
           </svg>
         </a>
       </li>
-      <li class="icon-item">
-        <a href="https://www.youtube.com/c/GoIT " class="icon-link">
-          <svg class="soc-icon" width="24" height="24">
-            <use href="../img/icons.svg#icon-youtube"></use>
+      <li class="icon-item-soc">
+        <a href="https://www.youtube.com/c/GoIT " class="icon-link-soc">
+          <svg class="soc-icon-soc" width="24" height="24">
+            <use href="/YachtJet-proj-04/assets/icons-0d9420a4.svg#icon-youtube"></use>
           </svg>
         </a>
       </li>
-      <li class="icon-item">
-        <a href="https://www.facebook.com/goITclub/" class="icon-link">
-          <svg class="soc-icon" width="24" height="24">
-            <use href="../img/icons.svg#icon-facebook"></use>
+      <li class="icon-item-soc">
+        <a href="https://www.facebook.com/goITclub/" class="icon-link-soc">
+          <svg class="soc-icon-soc" width="24" height="24">
+            <use href="/YachtJet-proj-04/assets/icons-0d9420a4.svg#icon-facebook"></use>
           </svg>
         </a>
       </li>
     </ul>
     <button type="button" class="mobile-button" data-menu-open>
       <svg class="button-icon" width="16" height="16">
-        <use href="../img/icons.svg#icon-menu-burger"></use>
+        <use href="/YachtJet-proj-04/assets/icons-0d9420a4.svg#icon-menu-burger"></use>
       </svg>
     </button>
   </div>
 </header>
+
     <section class="mob-menu">
   <!-- add clas "is-open" for check -->
   <div class="mobile-menu" data-menu>
@@ -139,52 +140,55 @@
 
       
 <section class="about-us" id="about">
-    <div class="container about-us-container">
-      <div class="about-us-description">
-      <div class="about-us-part1">
-      <h2 class="about-us-title" >
-        YachtJet fleet is here to take you on the ultimate adventure
-      </h2>
-    </div>
-      <div class="about-us-part2">
-      <h3 class="about-us-subtitle">
-        From spacious decks to state-of-the-art technology, our yachts are
-        designed to provide the perfect blend of luxury and functionality.
-      </h3>
-      <p class="about-us-text">
-        Take a look at our selection below and choose the yacht that matches
-        your needs and preferences.No matter which yacht you choose, our
-        experienced crew will ensure that your journey is smooth and
-        enjoyable. Book now and get ready for an unforgettable adventure on
-        the high seas.
-      </p>
-    </div>
+  <div class="container about-us-container">
+   <div class="about-us-wrapper"> 
+    <div class="about-us-description">
+    <div class="about-us-part1">
+    <h2 class="about-us-title" >
+      YachtJet fleet is here to take you on the ultimate adventure
+    </h2>
   </div>
-    <div class="about-us-wrapper">
-      <picture>
-        <source
-          srcset="/YachtJet-proj-04/assets/aboutus-desktop-1x-1871023f.jpg 1x, /YachtJet-proj-04/assets/aboutus-desktop-2x-424cafd6.jpg 2x"
-          media="(min-width:1280px)"
-        />
-        <source
-          srcset="/YachtJet-proj-04/assets/aboutus-tab-1x-15f6d511.jpg 1x, /YachtJet-proj-04/assets/aboutus-tab-2x-e258ac12.jpg 2x"
-          media="(min-width:768px)"
-        />
-        <source
-          srcset="/YachtJet-proj-04/assets/aboutus-mob-1x-6893a07c.jpg 1x, /YachtJet-proj-04/assets/aboutus-mob-2x-60f1ee45.jpg 2x"
-          media="(max-width:767px)"
-        />
-        <img
-          src="/YachtJet-proj-04/assets/aboutus-desktop-1x-1871023f.jpg"
-          width="1180"
-          alt="liquid-chocolate"
-          class="about-us-img"
-        />
-      </picture>
-  
-      
-    </div>
-  </section>
+    <div class="about-us-part2">
+    <h3 class="about-us-subtitle">
+      From spacious decks to state-of-the-art technology, our yachts are
+      designed to provide the perfect blend of luxury and functionality.
+    </h3>
+    <p class="about-us-text">
+      Take a look at our selection below and choose the yacht that matches
+      your needs and preferences.No matter which yacht you choose, our
+      experienced crew will ensure that your journey is smooth and
+      enjoyable. Book now and get ready for an unforgettable adventure on
+      the high seas.
+    </p>
+  </div>
+ 
+</div>
+
+  <picture>
+    <source
+      srcset="/YachtJet-proj-04/assets/aboutus-desktop-1x-1871023f.jpg 1x, /YachtJet-proj-04/assets/aboutus-desktop-2x-424cafd6.jpg 2x"
+      media="(min-width:1280px)"
+    />
+    <source
+      srcset="/YachtJet-proj-04/assets/aboutus-tab-1x-15f6d511.jpg 1x, /YachtJet-proj-04/assets/aboutus-tab-2x-e258ac12.jpg 2x"
+      media="(min-width:768px)"
+    />
+    <source
+      srcset="/YachtJet-proj-04/assets/aboutus-mob-1x-6893a07c.jpg 1x, /YachtJet-proj-04/assets/aboutus-mob-2x-60f1ee45.jpg 2x"
+      media="(max-width:767px)"
+    />
+    <img
+      src="/YachtJet-proj-04/assets/aboutus-desktop-1x-1871023f.jpg"
+      width="1280"
+      alt="liquid-chocolate"
+      class="about-us-img"
+    />
+  </picture>
+
+</div>
+  </div>
+</section>
+
 
       <section id="our_yachts" class="our-yahts-section">
   <div class="container our-yahts-container">
@@ -336,62 +340,82 @@
   </div>
 </section>
 
-      <section class="container container-Advantages bloc-adv">
+      <section class="container container-Advantages">
   <h2 class="visually-hidden">Advantages</h2>
-  <div class="adv-container">
-    <ul class="adv-list">
-      <li class="adv-item-1">
-        <h3 class="adv-title">01</h3>
-        <hr class="adv-line" />
-        <p class="adv-text adv-text-1">
-          Swimming and water sports: try your hand at water skiing
-        </p>
-      </li>
-      <li class="adv-item-2">
-        <h3 class="adv-title">02</h3>
-        <hr class="adv-line" />
-        <p class="adv-text">Fishing: try to catch your own dinner</p>
-      </li>
-      <li class="adv-item-3">
-        <h3 class="adv-title">03</h3>
-        <hr class="adv-line" />
-        <p class="adv-text adv-text-3">
-          Sightseeing tours: take a shore or island tour, enjoy the views and
-          sunsets from the water
-        </p>
-      </li>
-      <li class="adv-item-4">
-        <h3 class="adv-title">04</h3>
-        <hr class="adv-line" />
-        <p class="adv-text adv-text-4">
-          Rest and relaxation: read a book or listen to music while enjoying the
-          outdoor atmosphere.
-        </p>
-      </li>
-    </ul>
+  <div class="adv-bloc-bloc">
+    <div class="adv-container">
+      <ul class="adv-list">
+        <div class="adv-bloc-box">
+          <div class="adv-box-1">
+            <li class="adv-item">
+              <h4 class="adv-title">01</h4>
+              <div class="adv-line"></div>
+              <p class="adv-text text-one">
+                Swimming and water sports: try your hand at water skiing
+              </p>
+            </li>
+          </div>
+          <div class="adv-box-2">
+            <li class="adv-item">
+              <h4 class="adv-title">02</h4>
+              <div class="adv-line"></div>
+              <p class="adv-text text-two">
+                Fishing: try to catch your own dinner
+              </p>
+            </li>
+          </div>
+        </div>
+        <div class="adv-bloc-box">
+          <div class="adv-box-3">
+            <li class="adv-item">
+              <h4 class="adv-title">03</h4>
+              <div class="adv-line"></div>
+              <p class="adv-text text-three">
+                Sightseeing tours: take a shore or island tour, enjoy the views
+                and sunsets from the water
+              </p>
+            </li>
+          </div>
+          <div class="adv-box-4">
+            <li class="adv-item">
+              <h4 class="adv-title">04</h4>
+              <div class="adv-line"></div>
+              <p class="adv-text text-four">
+                Rest and relaxation: read a book or listen to music while
+                enjoying the outdoor atmosphere.
+              </p>
+            </li>
+          </div>
+        </div>
+      </ul>
+    </div>
+    <picture>
+      <source
+        media="(min-width: 1280px)"
+        srcset="/YachtJet-proj-04/assets/adv-desc-1x-ef748430.jpg , /YachtJet-proj-04/assets/adv-desc-2x-1900cc18.jpg "
+        type="img/jpg"
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="/YachtJet-proj-04/assets/adv-tab-1x-f77460d9.jpg , /YachtJet-proj-04/assets/adv-tab-2x-da82f823.jpg "
+        type="img/jpg"
+      />
+      <source
+        media="(max-width: 767px)"
+        srcset="/YachtJet-proj-04/assets/adv-mob-1x-bc5a97f9.jpg , /YachtJet-proj-04/assets/adv-mob-2x-e6f9d4db.jpg "
+        type="img/jpg"
+      />
+      <img
+        class="adv-img"
+        src="/YachtJet-proj-04/assets/adv-desc-1x-ef748430.jpg"
+        alt="photo-yachtyet"
+        width="432px"
+      />
+    </picture>
   </div>
-  <picture>
-    <source
-      media="(min-width: 1280px)"
-      srcset="/YachtJet-proj-04/assets/adv-desc-1x-ef748430.jpg , /YachtJet-proj-04/assets/adv-desc-2x-1900cc18.jpg 2x"
-      type="img/jpg"
-    />
-    <source
-      media="(min-width: 768px)"
-      srcset="/YachtJet-proj-04/assets/adv-tab-1x-f77460d9.jpg , /YachtJet-proj-04/assets/adv-tab-2x-da82f823.jpg 2x"
-      type="img/jpg"
-    />
-    <source
-      media="(max-width: 767px)"
-      srcset="/YachtJet-proj-04/assets/adv-mob-1x-bc5a97f9.jpg , /YachtJet-proj-04/assets/adv-mob-2x-e6f9d4db.jpg 2x"
-      type="img/jpg"
-    />
-    <img class="adv-img" src="/YachtJet-proj-04/assets/adv-mob-1x-bc5a97f9.jpg" alt="photo-yachtyet" />
-  </picture>
 </section>
 
-      
-<section class="rent-section">
+      <section class="rent-section">
   <div class="container rent-container">
     <div class="rent-conteiner-form">
       <h2 class="rent-title">Rent a yacht now</h2>
@@ -427,28 +451,19 @@
 
     <picture>
       <source
-        srcset="
-          ../img/rent-a-yacht/image-yacht-desk1x.jpg 1x,
-          ../img/rent-a-yacht/image-yacht-desk2x.jpg 2x
-        "
+        srcset="/YachtJet-proj-04/assets/image-yacht-desk1x-80907416.jpg 1x, /YachtJet-proj-04/assets/image-yacht-desk2x-92bfe4b9.jpg 2x"
         media="(min-width: 1280px)"
       />
       <source
-        srcset="
-          ../img/rent-a-yacht/Photorent-yacht-tab1x.jpg 1x,
-          ../img/rent-a-yacht/Photorent-yacht-tab2x.jpg 2x
-        "
+        srcset="/YachtJet-proj-04/assets/Photorent-yacht-tab1x-98c43833.jpg 1x, /YachtJet-proj-04/assets/Photorent-yacht-tab2x-59d05a2c.jpg 2x"
         media="(min-width: 768px)"
       />
       <source
-        srcset="
-          ../img/rent-a-yacht/Photorent-yacht1x.jpg 1x,
-          ../img/rent-a-yacht/Photorent-yacht2x.jpg 2x
-        "
+        srcset="/YachtJet-proj-04/assets/Photorent-yacht1x-a346dbc9.jpg 1x, /YachtJet-proj-04/assets/Photorent-yacht2x-dd976e86.jpg 2x"
         media="(max-width: 767px)"
       />
       <img
-        src="./img/rent-a-yacht/Photorent-yacht-desk1x.jpg"
+        src="/YachtJet-proj-04/assets/image-yacht-desk1x-80907416.jpg"
         alt="Rent a yacht"
         class="rent-yacht-img"
         width="768"
@@ -457,7 +472,6 @@
     </picture>
   </div>
 </section>
-
 
       
 
