@@ -96,6 +96,7 @@
   align-content: center;
   gap: 4px;
 }
+
 .mobile-menu-item {
   border-radius: 8px;
   width: 91px;
@@ -123,6 +124,7 @@
   background-color: #1b414b;
   border-radius: 8px;
 }
+
 
 .contact-list {
   display: flex;
