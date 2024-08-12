@@ -20,7 +20,7 @@
     />
     
     <script type="module" crossorigin src="/YachtJet-proj-04/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/YachtJet-proj-04/assets/index-5a336987.css">
+    <link rel="stylesheet" href="/YachtJet-proj-04/assets/index-1683344b.css">
   </head>
 
   <body>
@@ -429,11 +429,11 @@
   </div>
 </section>
 
-      <section class="rent-section">
+      <section class="rent_a_yacht">
   <div class="container rent-container">
     <div class="rent-conteiner-form">
       <h2 class="rent-title">Rent a yacht now</h2>
-      <form class="rent-form" action="">
+      <form class="rent-form">
         <input
           class="rent-input"
           type="text"
@@ -443,6 +443,7 @@
         />
 
         <input
+          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
           class="rent-input"
           type="email"
           name="rent-placeholder"
@@ -451,6 +452,7 @@
         />
 
         <input
+          pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
           class="rent-input"
           type="tel"
           name="rent-placeholder"
@@ -459,8 +461,8 @@
         />
 
         <textarea class="rent-textarea" placeholder="Comment"></textarea>
+        <button class="rent-btn" type="submit">Send</button>
       </form>
-      <button class="rent-btn" type="submit">Send</button>
     </div>
     <div class="rent-container-img">
       <picture>
