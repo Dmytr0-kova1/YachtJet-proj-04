@@ -5,7 +5,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-color: #0e1823;
   opacity: 0;
   visibility: hidden;
@@ -27,7 +27,7 @@
   pointer-events: auto;
 }
 
-.mobile-menu-conteiner {
+.mobile-menu-container {
   position: relative;
   text-align: center;
   padding-left: 20px;
@@ -96,6 +96,7 @@
   align-content: center;
   gap: 4px;
 }
+
 .mobile-menu-item {
   border-radius: 8px;
   width: 91px;
@@ -124,8 +125,6 @@
   border-radius: 8px;
 }
 
-.contacts-conteiner {
-}
 
 .contact-list {
   display: flex;
