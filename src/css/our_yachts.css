@@ -276,6 +276,10 @@
 
     }
 
+        .our-yachts-item:nth-child(3) {
+        display: block;
+    }
+
     .our-yahts-container {
         max-width: 1181px;
     }
