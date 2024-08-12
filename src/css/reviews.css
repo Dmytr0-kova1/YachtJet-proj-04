@@ -103,8 +103,8 @@
 
 
     .section-reviews-item {
-        margin-top: 75px;
-        margin-bottom: 75px;
+        padding-top: 75px;
+        padding-bottom: 75px;
     }
 
     .reviews-title {

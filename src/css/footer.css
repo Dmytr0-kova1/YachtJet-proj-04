@@ -1,8 +1,9 @@
-.page-footer-yacht {
+.fotter-yacht-container {
   padding-top: 40px;
 }
 
-.fotter-yacht-container {
+.page-footer-yacht {
+  /* padding-top: 40px; */
   border-radius: 24px 24px 0 0;
   background-color: #1b414b;
   padding: 40px 30px 20px;
@@ -29,7 +30,7 @@
 .footer-nav {
   /* display: flex; */
   /* align-items: center; */
-  margin-left: 37px;
+  /* margin-left: 37px; */
   margin-left: auto;
 }
 
@@ -38,8 +39,8 @@
   align-items: center;
   justify-content: end;
   gap: 4px;
-  margin-right: auto;
-  margin-left: 37px;
+  /* margin-right: auto; */
+  /* margin-left: 37px; */
 }
 
 .nav-item {
@@ -136,13 +137,12 @@
 
 @media screen and (min-width: 768px) {
   .fotter-yacht-container {
-    padding-top: 50px;
-    padding-bottom: 20px;
-    max-width: 736px;
+    padding-top: 75px;
   }
 
   .page-footer-yacht {
-    padding-top: 75px;
+    padding: 50px 48px 20px;
+    max-width: 736px;
   }
 
   .icon-list {
@@ -160,11 +160,6 @@
 
   .nav-item {
     width: 91px;
-  }
-
-  .fotter-yacht-container {
-    padding-left: 48px;
-    padding-right: 48px;
   }
 
   .div-footer {
@@ -195,13 +190,17 @@
 /* ---------------1280------------ */
 
 @media screen and (min-width: 1280px) {
-  .page-footer-yacht {
-    margin-left: 25px;
-    margin-right: 25px;
+  .fotter-yacht-container {
+    padding-left: 25px;
+    padding-right: 25px;
   }
 
-  .fotter-yacht-container {
+  .page-footer-yacht {
+    /* margin-left: 25px; */
+    /* margin-right: 25px; */
     max-width: 1230px;
+    padding-left: 75px;
+    padding-right: 75px;
   }
 
   .footer-nav {
@@ -216,10 +215,6 @@
     max-width: 693px;
   }
 
-  .fotter-yacht-container {
-    padding-right: 75px;
-    padding-left: 75px;
-  }
 
   .div-footer {
     justify-content: space-between;

@@ -3,9 +3,13 @@
 }
 
 .rent-a-yacht {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 
+}
+
+.rent-container {
+/* padding: 40px 0; */
 }
 
 .rent-title {
@@ -86,9 +90,9 @@
 }
 @media screen and (min-width: 768px) {
 
-  .rent-a-yacht {
-    padding-top: 150px;
-    padding-bottom: 150px;
+  .rent_a_yacht {
+    padding-top: 75px;
+    padding-bottom: 75px;
 
   }
 
