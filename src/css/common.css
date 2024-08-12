@@ -39,8 +39,8 @@ body {
   }
 
   .container-footer {
-  padding: 0 16px;
-}
+    padding: 0 16px;
+  }
 
   .favicon {
     width: 74px;
@@ -54,6 +54,6 @@ body {
   }
 
   .container-footer {
-  padding: 0 25px;
-}
+    padding: 0 25px;
+  }
 }

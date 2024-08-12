@@ -5,6 +5,7 @@
   left: 50%;
   transform: translate(-50%);
 }
+
 .header-container {
   display: flex;
   align-items: center;

@@ -3,8 +3,8 @@
 }
 
 .rent-section {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .container {
 }
@@ -17,6 +17,7 @@
   margin-bottom: 40px;
 }
 .rent-form {
+  margin-bottom: 40px;
 }
 .rent-input {
   border: 1px solid rgba(251, 251, 251, 0.2);
@@ -61,7 +62,6 @@
   background: #1b414b;
   color: #fcfcfc;
   cursor: pointer;
-  margin-top: 40px;
 }
 .rent-btn:hover,
 .rent-btn:focus {
@@ -77,8 +77,8 @@
 }
 @media screen and (min-width: 768px) {
   .rent-section {
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 75px;
+    padding-bottom: 75px;
   }
 
   .rent-container {
