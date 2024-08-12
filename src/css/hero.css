@@ -10,7 +10,7 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 260px 10px 302px 10px;
+  padding: 260px 0 302px 0;
 }
 
 @media screen and (min-device-pixel-ratio: 2),
@@ -48,7 +48,6 @@
   /* width: 335px; */
   margin: 0 auto;
   margin-bottom: 48px;
-  
 }
 
 .hero-button {
@@ -87,7 +86,7 @@
         rgba(17, 19, 31, 0.8) 98.27%
       ),
       url('../img/hero_bg_tab.jpg');
-    padding: 280px 22px 215px 22px;
+    padding: 280px 0 215px 0;
   }
 
   @media screen and (min-device-pixel-ratio: 2),
@@ -135,7 +134,7 @@
         rgba(17, 19, 31, 0.8) 98.27%
       ),
       url('../img/hero_bg_desk.jpg');
-    padding: 235px 22px 180px 22px;
+    padding: 235px 0 180px 0;
   }
 
   @media screen and (min-device-pixel-ratio: 2),

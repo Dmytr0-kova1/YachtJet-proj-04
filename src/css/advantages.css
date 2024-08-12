@@ -1,6 +1,6 @@
 /* MOB */
 .container-Advantages {
-  padding: 40px 20px;
+  /* padding: 40px 20px; */
 }
 .advantages-container {
   border-radius: 24px;
@@ -10,9 +10,6 @@
   padding: 80px 20px;
   margin-bottom: 40px;
 }
-
-
-
 
 .advantages-line {
   background: rgba(251, 251, 251, 0.1);
@@ -117,12 +114,13 @@
 /* DESC */
 @media screen and (min-width: 1280px) {
   .container-Advantages {
-    padding: 150px 50px;
+    /* padding: 75px 50px; */
   }
   .advantages-container {
     max-width: 716px;
     max-height: 424px;
     padding: 90px 50px;
+    margin-bottom: 0;
   }
   .advantages-img {
     max-width: 432px;
