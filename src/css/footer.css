@@ -1,23 +1,23 @@
-.page-footer-yacht {
- 
-
+.fotter-yacht-container {
+  padding-top: 40px;
 }
 
-.fotter-yacht-container {
-    border-radius: 24px 24px 0 0;
+.page-footer-yacht {
+  /* padding-top: 40px; */
+  border-radius: 24px 24px 0 0;
   background-color: #1b414b;
-  padding-top: 40px;
-  padding-bottom: 20px;
+  padding: 40px 30px 20px;
+  max-width: 375px;
+  margin: 0 auto;
 }
 
 .div-footer {
-  
-  row-gap: 80px;
-  column-gap: 37px;
+  /* row-gap: 80px; */
+  /* column-gap: 37px; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .footer-logo-yacht {
@@ -28,14 +28,19 @@
 }
 
 .footer-nav {
-  display: flex;
-  align-items: center;
+  /* display: flex; */
+  /* align-items: center; */
+  /* margin-left: 37px; */
+  margin-left: auto;
 }
 
 .nav-list {
   display: flex;
   align-items: center;
+  justify-content: end;
   gap: 4px;
+  /* margin-right: auto; */
+  /* margin-left: 37px; */
 }
 
 .nav-item {
@@ -58,12 +63,11 @@
   cursor: pointer;
   padding: 15px 12px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   border-radius: 8px;
 }
 
 .nav-list .nav-link:hover,
 .nav-list .nav-link:focus {
- 
+  border-radius: 8px;
   background-color: #fbfbfb;
   color: #1b414b;
 }
@@ -73,6 +77,8 @@
   justify-content: center;
   gap: 8px;
   align-items: center;
+  margin: 0 auto;
+  margin-top: 80px;
 }
 
 .icon-link-footer {
@@ -131,12 +137,21 @@
 
 @media screen and (min-width: 768px) {
   .fotter-yacht-container {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-top: 75px;
+  }
+
+  .page-footer-yacht {
+    padding: 50px 48px 20px;
+    max-width: 736px;
+  }
+
+  .icon-list {
+    margin: 0;
+    margin-left: 90px;
   }
 
   .container {
-    max-width: 768px;
+    /* max-width: 768px; */
   }
 
   .footer-logo-yacht {
@@ -148,9 +163,6 @@
   }
 
   .div-footer {
-    padding-right: 48px;
-    padding-left: 48px;
-
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -178,22 +190,33 @@
 /* ---------------1280------------ */
 
 @media screen and (min-width: 1280px) {
+  .fotter-yacht-container {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
   .page-footer-yacht {
-    margin-left: 25px;
-    margin-right: 25px;
+    /* margin-left: 25px; */
+    /* margin-right: 25px; */
+    max-width: 1230px;
+    padding-left: 75px;
+    padding-right: 75px;
+  }
+
+  .footer-nav {
+    margin-left: 0;
   }
 
   .container {
-    max-width: 1280px;
+    /* max-width: 1280px; */
   }
 
   .title-footer {
     max-width: 693px;
   }
 
+
   .div-footer {
-    padding-right: 75px;
-    padding-left: 75px;
     justify-content: space-between;
   }
 }

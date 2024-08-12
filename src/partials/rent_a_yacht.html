@@ -1,8 +1,8 @@
-<section class="rent-section">
+<section class="rent_a_yacht">
   <div class="container rent-container">
     <div class="rent-conteiner-form">
       <h2 class="rent-title">Rent a yacht now</h2>
-      <form class="rent-form" action="">
+      <form class="rent-form">
         <input
           class="rent-input"
           type="text"
@@ -12,6 +12,7 @@
         />
 
         <input
+          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
           class="rent-input"
           type="email"
           name="rent-placeholder"
@@ -20,6 +21,7 @@
         />
 
         <input
+          pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
           class="rent-input"
           type="tel"
           name="rent-placeholder"
@@ -28,39 +30,40 @@
         />
 
         <textarea class="rent-textarea" placeholder="Comment"></textarea>
+        <button class="rent-btn" type="submit">Send</button>
       </form>
-      <button class="rent-btn" type="submit">Send</button>
     </div>
-
-    <picture>
-      <source
-        srcset="
-          /img/rent-a-yacht/image-yacht-desk1x.jpg 1x,
-          /img/rent-a-yacht/image-yacht-desk2x.jpg 2x
-        "
-        media="(min-width: 1280px)"
-      />
-      <source
-        srcset="
-          /img/rent-a-yacht/Photorent-yacht-tab1x.jpg 1x,
-          /img/rent-a-yacht/Photorent-yacht-tab2x.jpg 2x
-        "
-        media="(min-width: 768px)"
-      />
-      <source
-        srcset="
-          /img/rent-a-yacht/Photorent-yacht1x.jpg 1x,
-          /img/rent-a-yacht/Photorent-yacht2x.jpg 2x
-        "
-        media="(max-width: 767px)"
-      />
-      <img
-        src="/img/rent-a-yacht/image-yacht-desk1x.jpg"
-        alt="Rent a yacht"
-        class="rent-yacht-img"
-        width="768"
-        height="536"
-      />
-    </picture>
+    <div class="rent-container-img">
+      <picture>
+        <source
+          srcset="
+            /img/rent-a-yacht/image-yacht-desk1x.jpg 1x,
+            /img/rent-a-yacht/image-yacht-desk2x.jpg 2x
+          "
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="
+            /img/rent-a-yacht/Photorent-yacht-tab1x.jpg 1x,
+            /img/rent-a-yacht/Photorent-yacht-tab2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            /img/rent-a-yacht/Photorent-yacht1x.jpg 1x,
+            /img/rent-a-yacht/Photorent-yacht2x.jpg 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <img
+          src="/img/rent-a-yacht/image-yacht-desk1x.jpg"
+          alt="Rent a yacht"
+          class="rent-yacht-img"
+          width="768"
+          height="536"
+        />
+      </picture>
+    </div>
   </div>
 </section>
