@@ -1,8 +1,8 @@
-<section class="rent-section">
+<section class="rent_a_yacht">
   <div class="container rent-container">
     <div class="rent-conteiner-form">
       <h2 class="rent-title">Rent a yacht now</h2>
-      <form class="rent-form" action="">
+      <form class="rent-form">
         <input
           class="rent-input"
           type="text"
@@ -12,6 +12,7 @@
         />
 
         <input
+          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
           class="rent-input"
           type="email"
           name="rent-placeholder"
@@ -20,6 +21,7 @@
         />
 
         <input
+          pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
           class="rent-input"
           type="tel"
           name="rent-placeholder"
