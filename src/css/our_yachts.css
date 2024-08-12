@@ -45,7 +45,42 @@
     padding: 16px 16px 32px;
     max-width: 334px;
     max-height: 478px;
+
 }
+
+/* ------нові стилі-------- */
+.table-our-price {
+    max-width: 270px;
+    margin-left: 16px;
+    border-collapse: collapse;
+}
+
+.first-child,
+.last-child {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 118%;
+    letter-spacing: 0.03em;
+    color: #040306;
+    text-transform: uppercase;
+    padding: 0px;
+    white-space: nowrap;
+}
+
+.first-child {
+    white-space: nowrap;
+    padding: 0px;
+    color: #040306;
+    padding-bottom: 6px;
+    text-transform: uppercase;
+}
+
+.second-child-expand {
+    width: 100%;
+
+}
+
 
 .our-review-btn {
     display: flex;
@@ -158,38 +193,6 @@
     color: #040306;
 }
 
-.table-our-price {
-    max-width: 270px;
-    margin-left: 16px;
-    border-collapse: collapse;
-}
-
-td {
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 118%;
-    letter-spacing: 0.03em;
-    color: #040306;
-}
-
-td:first-child {
-    white-space: nowrap;
-    padding: 0px;
-    color: #040306;
-    padding-bottom: 6px;
-}
-
-.expand {
-    width: 100%;
-
-}
-
-td:last-child {
-    padding: 0px;
-    white-space: nowrap;
-}
-
 
 .yahts-btn {
     border: 1px solid rgba(251, 251, 251, 0.35);
@@ -299,8 +302,6 @@ td:last-child {
 
 
     }
-
-
 
     .yachts-our-item {
         max-width: 328px;
