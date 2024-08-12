@@ -1,7 +1,6 @@
 .mobile-menu {
   position: fixed;
   z-index: 1;
-  align-items: start;
   top: 0;
   left: 0;
   width: 100%;
@@ -30,8 +29,6 @@
 .mobile-menu-container {
   position: relative;
   text-align: center;
-  padding-left: 20px;
-  padding-right: 20px;
   padding-top: 16px;
   padding-bottom: 40px;
   display: flex;
@@ -67,12 +64,10 @@
 }
 
 .mobile-menu-close {
-  position: absolute;
-  top: 23px;
-  right: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: auto;
   border: none;
   background: none;
   fill: #055545;
@@ -124,7 +119,6 @@
   background-color: #1b414b;
   border-radius: 8px;
 }
-
 
 .contact-list {
   display: flex;
