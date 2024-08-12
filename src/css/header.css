@@ -130,7 +130,7 @@
     width: 1280px;
   }
   .header-container {
-    min-width: 1080px;
+    max-width: 1180px;
     padding-left: 30px;
     padding-right: 30px;
   }
