@@ -107,7 +107,7 @@
     gap: 8px;
     align-items: center;
   }
-  .icon-link-soc {
+  .icon-link-soc-header {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -119,22 +119,22 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-
+  .icon-link-soc-header:hover,
+  .icon-link-soc-header:focus {
+    fill: #062730;
+  }
   .mobile-button {
     display: none;
   }
 }
 @media screen and (min-width: 1280px) {
   .header-section {
-    /* left: 0; */
     width: 1280px;
   }
   .header-container {
     min-width: 1080px;
     padding-left: 30px;
     padding-right: 30px;
-    /* margin-left: 100px; */
-    /* margin-right: 100px; */
   }
 
   .mobile-button {
