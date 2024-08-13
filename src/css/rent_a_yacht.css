@@ -6,8 +6,7 @@
   padding-top: 80px;
   padding-bottom: 80px;
 }
-.container {
-}
+
 .rent-title {
   margin-bottom: 40px;
   font-weight: 500;
@@ -16,8 +15,7 @@
 .rent-conteiner-form {
   margin-bottom: 40px;
 }
-.rent-form {
-}
+
 .rent-input {
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 12px;
