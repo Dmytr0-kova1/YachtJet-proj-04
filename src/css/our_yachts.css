@@ -212,8 +212,8 @@
     }
 
     .our-yahts-section {
-        padding-bottom: 150px;
-        padding-top: 150px;
+        padding-bottom: 75px;
+        padding-top: 75px;
     }
 
     /* .our-listyachts-list {
@@ -269,12 +269,12 @@
         max-width: 1280px;
     }
 
-    .our-yahts-section {
-        padding-top: 150px;
-        padding-bottom: 150px;
-        /* min-width: 1280px; */
+    /* .our-yahts-section {
+        padding-top: 75px;
+        padding-bottom: 75px;
+        min-width: 1280px;
 
-    }
+    } */
 
         .our-yachts-item:nth-child(3) {
         display: block;

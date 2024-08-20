@@ -5,14 +5,12 @@
 .rent-a-yacht {
   padding-top: 40px;
   padding-bottom: 40px;
-
 }
-
 
 .rent-container {
-/* padding: 40px 0; */
+  padding-top: 80px;
+  padding-bottom: 40px;
 }
-
 
 .rent-title {
   margin-bottom: 40px;
@@ -23,7 +21,6 @@
 .rent-conteiner-form {
   margin-bottom: 40px;
 }
-
 
 .rent-input {
   border: 1px solid rgba(251, 251, 251, 0.2);
@@ -40,7 +37,6 @@
 
 .rent-input:hover,
 .rent-input:focus {
-
   border: 1px solid rgba(251, 251, 251, 0.5);
 }
 
@@ -70,7 +66,6 @@
 .rent-textarea:hover,
 .rent-textarea:focus {
   border: 1px solid rgba(251, 251, 251, 0.5);
-
 }
 .rent-btn {
   border-radius: 15px;
@@ -99,11 +94,9 @@
 }
 
 @media screen and (min-width: 768px) {
-
   .rent_a_yacht {
     padding-top: 75px;
     padding-bottom: 75px;
-
   }
 
   .rent-container {
@@ -111,6 +104,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .rent-form {
