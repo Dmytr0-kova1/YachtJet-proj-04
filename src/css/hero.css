@@ -10,7 +10,29 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 260px 10px 243px 10px;
+  padding: 260px 0 302px;
+}
+
+.hero-button {
+  display: block;
+  text-align: center;
+  border-radius: 15px;
+  padding: 14px 32px;
+  /* width: 141px; */
+  /* height: 46px; */
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  background-color: #1b414b;
+   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: #1b414b;
+  background: #fbfbfb;
 }
 
 @media screen and (min-device-pixel-ratio: 2),
@@ -35,6 +57,7 @@
   text-align: center;
   color: #fbfbfb;
   margin-bottom: 24px;
+  /* width: 335px; */
 }
 
 .hero-description {
@@ -44,35 +67,22 @@
   text-align: center;
   color: rgba(251, 251, 251, 0.7);
   margin-bottom: 38px;
-  max-width: 335px;
+  /* width: 335px; */
   margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .hero-button {
-  border-radius: 15px;
-  padding: 14px 32px;
-  background: #1b414b;
-  font-family: 'Inter', sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.28571;
-  letter-spacing: -0.02em;
-  color: #fbfbfb;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  font-size: 18px;
+  line-height: 1.1;
+  padding: 16px 40px;
+  width: 179px;
+  height: 52px;
   margin-left: auto;
   margin-right: auto;
-  border: none;
-  box-shadow: none;
-  cursor: pointer;
 }
 
-.hero-button:hover,
-.hero-button:focus {
-  color: #1b414b;
-  background: #fbfbfb;
-}
+
 
 @media screen and (min-width: 768px) {
   .s2 {
@@ -84,7 +94,7 @@
         rgba(17, 19, 31, 0.8) 98.27%
       ),
       url('../img/hero_bg_tab.jpg');
-    padding: 280px 22px 215px 22px;
+    padding: 280px 0 282px;
   }
 
   @media screen and (min-device-pixel-ratio: 2),
@@ -110,11 +120,6 @@
     margin: 0 auto 46px auto;
   }
 
-  .hero-button {
-    padding: 16px 40px;
-    font-size: 18px;
-    line-height: 1.1;
-  }
   .hero-container {
     max-width: 768px;
   }
@@ -132,7 +137,7 @@
         rgba(17, 19, 31, 0.8) 98.27%
       ),
       url('../img/hero_bg_desk.jpg');
-    padding: 235px 22px 180px 22px;
+    padding: 235px 0 215px;
   }
 
   @media screen and (min-device-pixel-ratio: 2),
