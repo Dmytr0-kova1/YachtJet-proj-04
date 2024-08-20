@@ -130,8 +130,9 @@
   .header-section {
     width: 1280px;
   }
-  .header-container {
+
     max-width: 1180px;
+
     padding-left: 30px;
     padding-right: 30px;
   }
